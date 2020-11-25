@@ -18,7 +18,7 @@ public class HelloWorldResource {
                 .build();
     }
 
-    @POST
+    /*@POST
     public Response post(String requestBody, @Context UriInfo uriInfo) {
         String body = requestBody != null ? requestBody:"";
         UriBuilder uriBuilder = uriInfo.getAbsolutePathBuilder().path("a_new_location");
@@ -26,7 +26,7 @@ public class HelloWorldResource {
                 .created(uriBuilder.build())
                 .entity("Hello posted world!" + body)
                 .build();
-    }
+    }*/
 
     @GET
     @Path("/q")

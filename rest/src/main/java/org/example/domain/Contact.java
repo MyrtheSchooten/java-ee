@@ -11,9 +11,10 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class Contact {
 
-    int id;
+    String id;
     String firstname;
     String surname;
     String email;
     boolean edit;
+
 }

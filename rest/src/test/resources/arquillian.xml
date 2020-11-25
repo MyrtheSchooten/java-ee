@@ -5,9 +5,10 @@
     http://jboss.org/schema/arquillian/arquillian_1_0.xsd">
     <container qualifier="wlp" default="true">
         <configuration>
-            <property name="serverName">defaultServer</property>
+            <!--<property name="serverName">defaultServer</property>
             <property name="httpPort">9080</property>
-            <property name="wlpHome">C:\Users\myrth\OneDrive\Documenten\wlp</property>
+            <property name="wlpHome">C:\Users\myrth\OneDrive\Documenten\wlp</property>-->
+            <property name="wlpHome">target/liberty/wlp</property>
 
 
             <!--<property name="wlpHome">target/liberty/wlp</property>-->
